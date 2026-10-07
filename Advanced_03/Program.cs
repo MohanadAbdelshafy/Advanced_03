@@ -109,6 +109,35 @@ namespace Advanced_03
             //HashSet<int> sub = [1, 2];
             //Console.WriteLine($"Is Subset: {sub.IsSubsetOf(setA)}"); 
             #endregion
+            #region Exercise 5
+            //Queue<string> docs = new();
+            //docs.Enqueue("Report.pdf");
+            //docs.Enqueue("Invoice.pdf");
+            //docs.Enqueue("Letter.docx");
+            //docs.Enqueue("Resume.pdf");
+            //docs.Enqueue("Photo.jpg");
+
+            //Console.WriteLine($"Queue contents: {string.Join(", ", docs)}");
+            //Console.WriteLine($"Queue count: {docs.Count}");
+
+            //Console.WriteLine($"First item in queue: {docs.Peek()}");
+
+            //while (docs.Count > 0)
+            //{
+            //    string doc = docs.Dequeue();
+            //    Console.WriteLine($"Printing document: {doc}");
+            //}
+
+            //if (docs.TryDequeue(out string? name))
+            //{
+            //    Console.WriteLine($"Printing document: {name}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("No documents to print.");
+            //} 
+            #endregion
+
         }
     }
 }
