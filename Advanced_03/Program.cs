@@ -51,6 +51,35 @@ namespace Advanced_03
             //leaderboard.Remove(200);
             //Helper.PrintSortedList("Updated Leaderboard", leaderboard); 
             #endregion
+            #region Exercise 3
+            //Dictionary<string, string> phoneBook = new Dictionary<string, string>
+            //{
+            //    ["Alice"] = "123-456-7890",
+            //    ["Bob"] = "987-654-3210",
+            //    ["Charlie"] = "555-555-5555"
+            //};
+            //phoneBook["John"] = "111-222-3333";
+            //try
+            //{
+            //    phoneBook.Add("Alice", "123-456-7890");
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine($"Error adding entry to phone book: {ex.Message}");
+            //}
+            //Console.WriteLine($"TryAdd result: {phoneBook.TryAdd("Alice", "123-456-7890")}");
+            //if (phoneBook.TryGetValue("Hasona", out string? Number))
+            //{
+            //    Console.WriteLine($" number: {Number}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine(" not found.");
+            //}
+            //Console.WriteLine($"phone book keys:  {string.Join(", ", phoneBook.Keys)}");
+            //Console.WriteLine($"phone book values:  {string.Join(", ", phoneBook.Values)}");
+
+            #endregion
         }
     }
 }
