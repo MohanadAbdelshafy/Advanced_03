@@ -80,6 +80,35 @@ namespace Advanced_03
             //Console.WriteLine($"phone book values:  {string.Join(", ", phoneBook.Values)}");
 
             #endregion
+            #region Exercise 4
+            //HashSet<string> emails = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
+            //{
+            //    "ahmed@test.com",
+            //    "AHMED@test.com",
+            //    "sara@test.com",
+            //    "Sara@Test.Com"
+            //};
+            //// The HashSet will only store unique email addresses, ignoring case differences.
+            //Console.WriteLine($"Stored Unique Emails Count: {emails.Count}");
+
+            //HashSet<int> setA = [1, 2, 3, 4, 5];
+            //HashSet<int> setB = [4, 5, 6, 7, 8];
+
+            //HashSet<int> union = new(setA);
+            //union.UnionWith(setB);
+            //Console.WriteLine($"Union of Set A and Set B: {string.Join(", ", union)}");
+
+            //HashSet<int> intersection = new(setA);
+            //intersection.IntersectWith(setB);
+            //Console.WriteLine($"Intersection of Set A and Set B: {string.Join(", ", intersection)}");
+
+            //HashSet<int> except = new(setA);
+            //except.ExceptWith(setB);
+            //Console.WriteLine($"Set A except Set B: {string.Join(", ", except)}");
+
+            //HashSet<int> sub = [1, 2];
+            //Console.WriteLine($"Is Subset: {sub.IsSubsetOf(setA)}"); 
+            #endregion
         }
     }
 }
