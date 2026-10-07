@@ -137,7 +137,33 @@ namespace Advanced_03
             //    Console.WriteLine("No documents to print.");
             //} 
             #endregion
+            #region Exercise 6
+            //Stack<string> browserHistory = new Stack<string>();
+            //browserHistory.Push("google.com");
+            //browserHistory.Push("github.com");
+            //browserHistory.Push("stackoverflow.com");
+            //browserHistory.Push("youtube.com");
+            //browserHistory.Push("claude.ai");
 
+            //Console.WriteLine($"Current page: {browserHistory.Peek()}");
+
+            //for (int i = 1; i <= 3; i++)
+            //{
+            //    string leftPage = browserHistory.Pop();
+            //    Console.WriteLine($"Leaving page: {leftPage}");
+            //}
+            //Console.WriteLine($"Current page now: {browserHistory.Peek()}");
+
+            //browserHistory.Clear();
+            //if (browserHistory.TryPop(out string? currentPage))
+            //{
+            //    Console.WriteLine($"Current page now: {currentPage}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("No pages in history.");
+            //} 
+            #endregion
         }
     }
 }
